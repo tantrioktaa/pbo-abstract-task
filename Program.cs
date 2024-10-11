@@ -22,7 +22,6 @@ class Program
         bos.CetakInformasi();
         Console.WriteLine();
 
-        // Gunakan kemampuan
         robot2.GunakanKemampuan(new SeranganListrik());
         Console.WriteLine();
         robot2.GunakanKemampuan(new SeranganPlasma());
